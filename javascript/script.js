@@ -10,33 +10,33 @@
 	           .when('/', {
 	               templateUrl: 'partials/home.html',
 	               controller: 'mainController',
-	               css: 'style/style.css',
+	               css: 'style/style.css'
 	           })
 
 	           // route for the friends page
 	           .when('/friends', {
 	               templateUrl: 'partials/friends.html',
 	               controller: 'friendsController',
-	               css: 'style/bootstrap.css',
+	               css: 'style/bootstrap.css'
 	           })
 
 	           // rout for the messages page
 	           .when('/messages', {
 	               templateUrl: 'partials/private.html',
-	               controller: 'messagesController',
+	               controller: 'messagesController'
 	               //	         css: 'style/bootstrap.css',
 	           })
 
 
 	           .when('/settings', {
 	               templateUrl: 'partials/settings.html',
-	               controller: 'settingsController',
+	               controller: 'settingsController'
 	               //	         css: ['style/bootstrap.css', 'style/profile.css'],
 	           })
 	           // route for the profile page
 	           .when('/profile', {
 	               templateUrl: 'partials/profile.html',
-	               controller: 'profileController',
+	               controller: 'profileController'
 	               //	         css: ['style/bootstrap.css', 'style/profile.css'],
 	           })
 	       });
