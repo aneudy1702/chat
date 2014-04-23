@@ -4,7 +4,7 @@
 
 	        // configure our routes
 	       stagezApp.config(function($routeProvider) {
-	           $routeProvider
+	           //$routeProvider what is this?
 
 	           // route for the home page
 	           .when('/', {
